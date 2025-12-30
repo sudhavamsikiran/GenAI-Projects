@@ -1,1 +1,5 @@
-<Solution />
+<Solution>
+  <Folder Name="/LLMIntegrations/">
+    <Project Path="TextCompletion/TextCompletion.csproj" Id="dea2a575-943c-4a4c-811d-9696ab8bb9ab" />
+  </Folder>
+</Solution>

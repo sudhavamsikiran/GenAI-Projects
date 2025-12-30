@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UserSecretsId>1a796464-3b2c-470b-a939-de0b9dfb34d3</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.AI.OpenAI" Version="2.1.0" />
+    <PackageReference Include="Microsoft.Extensions.AI" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.AI.Abstractions" Version="10.1.1" />
+    <PackageReference Include="Microsoft.Extensions.AI.Evaluation" Version="10.1.0" />
+    <PackageReference Include="Microsoft.Extensions.AI.Evaluation.Reporting.Azure" Version="10.1.0" />
+    <PackageReference Include="Microsoft.Extensions.AI.OpenAI" Version="10.1.1-preview.1.25612.2" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.1" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="10.0.1" />
+  </ItemGroup>
+
+</Project>
